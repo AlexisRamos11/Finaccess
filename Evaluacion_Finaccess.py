@@ -533,7 +533,7 @@ elif option == 'Comentario':
 # In[ ]:
 
 
-st.sidebar.title("Ejercicio Programación Finaccess")
+st.sidebar.title("Ejercicio Programacion Finaccess")
 data_2=pd.read_excel('Ejercicio Programación Finaccess.xlsx')
 inflation=data_2[['Instrucciones:','Unnamed: 1']][7:302]
 inflation.reset_index(inplace=True,drop=True)
