@@ -29,7 +29,7 @@ ejercicio=st.sidebar.selectbox('Seleccione la opción a visualizar',['','Ejercic
 
 if ejercicio == 'Ejercicio Inversiones Finaccess':
   st.sidebar.title("Ejercicio Inversiones Finaccess")
-  option = st.sidebar.selectbox("Seleccione el ejercicio a visualizar", 
+  option = st.sidebar.radio("Seleccione el ejercicio a visualizar", 
                             ['','Introducción','Portafolios','Rendimiento','Valuación','Gráficas','Comentario'])
   
   
@@ -536,7 +536,7 @@ elif ejercicio =='Ejercicio Programación Finaccess':
 # In[ ]:
 
 ##ejercicio 2
-  st.sidebar.title("Ejercicio Programación Finaccess")
+  st.sidebar.radio("Ejercicio Programación Finaccess")
   
   inflation=data_2[['Instrucciones:','Unnamed: 1']][7:302]
   inflation.reset_index(inplace=True,drop=True)
