@@ -730,8 +730,8 @@ elif ejercicio =='Ejercicio Programación Finaccess':
   # In[ ]:
   
   
-  option_2 = st.sidebar.selectbox("Seleccione el escenario a visualizar", 
-                            ['','Introducción','Goldilocks','Reflation','Stagflation','Deflation'])
+  option_2 = st.sidebar.radio("Seleccione el escenario a visualizar", 
+                            ['Introducción','Goldilocks','Reflation','Stagflation','Deflation'])
   
   if option_2 == 'Introducción':
       st.title('Introducción')
