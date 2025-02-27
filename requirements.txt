@@ -4,3 +4,4 @@ streamlit
 numpy
 scipy
 pip
+openpyxl
