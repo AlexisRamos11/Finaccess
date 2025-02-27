@@ -19,7 +19,7 @@ pip.main(["install","openpyxl"])
 
 #lectura del archivo con los datos
 data=pd.read_excel('Ejercicio Inversiones Finaccess.xlsx',sheet_name='Portafolios')
-
+data_2=pd.read_excel('Ejercicio Programacion Finaccess.xlsx')
 
 # In[ ]:
 
@@ -534,7 +534,7 @@ elif option == 'Comentario':
 
 
 st.sidebar.title("Ejercicio Programacion Finaccess")
-data_2=pd.read_excel('Ejercicio Programación Finaccess.xlsx')
+
 inflation=data_2[['Instrucciones:','Unnamed: 1']][7:302]
 inflation.reset_index(inplace=True,drop=True)
 inflation.columns=['Date','US Inflation(%)']
