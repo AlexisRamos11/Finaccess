@@ -11,7 +11,8 @@ import streamlit as st
 from datetime import datetime
 import numpy as np
 from scipy.stats import norm
-
+import pip
+pip.main(["install","openpyxl"])
 
 # In[ ]:
 
