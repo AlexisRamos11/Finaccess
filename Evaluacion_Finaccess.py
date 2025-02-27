@@ -23,7 +23,7 @@ data_2=pd.read_excel('Ejercicio Programacion Finaccess.xlsx')
 
 # In[ ]:
 
-
+st.image('Logo.png')
 st.sidebar.subheader('Ramos Palacios Juan Alexis')
 ejercicio=st.sidebar.selectbox('Seleccione el ejercicio a visualizar',['','Ejercicio Inversiones Finaccess','Ejercicio Programación Finaccess'])
 
@@ -31,7 +31,7 @@ if ejercicio == 'Ejercicio Inversiones Finaccess':
   st.sidebar.title("Ejercicio Inversiones Finaccess")
   option = st.sidebar.selectbox("Seleccione el ejercicio a visualizar", 
                             ['','Introducción','Portafolios','Rendimiento','Valuación','Gráficas','Comentario'])
-  st.image('Logo.png')
+  
   
   if option=='Introducción':
       st.title('Introducción')
