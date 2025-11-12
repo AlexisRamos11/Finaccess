@@ -350,13 +350,10 @@ if ejercicio == 'Ejercicio Inversiones Finaccess':
 
               ## Cálculo del WACC
 
-              \[
               WACC = \left( \frac{E}{V} \times Re \right) + \left( \frac{D}{V} \times Rd \times (1 - T) \right)
-              \]
+
               
-              ---
-              
-              ## 📘 Significados
+              ## Significados
               
               - **WACC:** Costo promedio ponderado del capital.  
               - **E:** Valor del capital propio (*Equity*).  
