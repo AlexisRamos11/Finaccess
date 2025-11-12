@@ -344,6 +344,7 @@ if ejercicio == 'Ejercicio Inversiones Finaccess':
               ### Cálculo del CAPM
               
               $$CAPM=R_f+\\beta(R_m-R_f)$$
+              
               Donde:
               - $R_f$ es la rentabilidad de un activo sin riesgo, en este caso usaremos el Bono10Y
               - $R_m$ es la rentabilidad del mercado, usaremos el rendimiento del IPC
@@ -353,12 +354,11 @@ if ejercicio == 'Ejercicio Inversiones Finaccess':
               ### Cálculo del WACC
 
               $$WACC = (E/V)*Re + (D/V)*Rd*(1 - T)$$
+
+              Donde:
               
               $$V = E + D$$
-
-              
-              Significados
-              
+      
               - **WACC:** Costo promedio ponderado del capital.  
               - **E:** Valor del capital propio (*Equity*).  
               - **D:** Valor de la deuda (*Debt*).  
