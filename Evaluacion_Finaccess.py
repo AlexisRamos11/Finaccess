@@ -363,7 +363,7 @@ if ejercicio == 'Ejercicio Inversiones Finaccess':
               - **V:** Valor total de la empresa (`V = E + D`).  
               - **Re(CAPM):** Costo del capital propio (*Cost of Equity*).  
               - **Rd:** Costo de la deuda (*Cost of Debt*).  
-              - **T:** Tasa de impuesto sobre la renta (*Tax Rate*).  
+              - **T:** Tasa de impuesto sobre la renta (*ISR*).  
 
               **Nota:** Re vendría siendo el resultado de la sustitución de **CAPM**
               ''')
