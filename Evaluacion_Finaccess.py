@@ -350,9 +350,9 @@ if ejercicio == 'Ejercicio Inversiones Finaccess':
 
               ## Cálculo del WACC
 
-              WACC = (E/V)*Re + (D/V)*Rd*(1 - T)
+              $$WACC = (E/V)*Re + (D/V)*Rd*(1 - T)$$
               
-              V = E + D
+              $$V = E + D$$
 
               
               ## Significados
