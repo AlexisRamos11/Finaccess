@@ -340,7 +340,9 @@ if ejercicio == 'Ejercicio Inversiones Finaccess':
               - 0.03 es la tasa que se usa para crecer indefinidamente
   
               **Nota:** Para el cálculo del CAPM se ve de la siguiente forma:
-  
+
+              ### Cálculo del CAPM
+              
               $$CAPM=R_f+\\beta(R_m-R_f)$$
               Donde:
               - $R_f$ es la rentabilidad de un activo sin riesgo, en este caso usaremos el Bono10Y
@@ -348,14 +350,14 @@ if ejercicio == 'Ejercicio Inversiones Finaccess':
               - $\\beta$ es el coeficiente de variabilidad del rendimiento de los recursos propios de la empresa
 
 
-              ## Cálculo del WACC
+              ### Cálculo del WACC
 
               $$WACC = (E/V)*Re + (D/V)*Rd*(1 - T)$$
               
               $$V = E + D$$
 
               
-              ## Significados
+              Significados
               
               - **WACC:** Costo promedio ponderado del capital.  
               - **E:** Valor del capital propio (*Equity*).  
