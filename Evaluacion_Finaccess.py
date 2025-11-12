@@ -341,12 +341,32 @@ if ejercicio == 'Ejercicio Inversiones Finaccess':
   
               **Nota:** Para el cálculo del CAPM se ve de la siguiente forma:
   
-              $$CAPM=R_f\\beta(R_m-R_f)$$
+              $$CAPM=R_f+\\beta(R_m-R_f)$$
               Donde:
               - $R_f$ es la rentabilidad de un activo sin riesgo, en este caso usaremos el Bono10Y
               - $R_m$ es la rentabilidad del mercado, usaremos el rendimiento del IPC
               - $\\beta$ es el coeficiente de variabilidad del rendimiento de los recursos propios de la empresa
+
+
+              ## Cálculo del WACC
+
+              \[
+              WACC = \left( \frac{E}{V} \times Re \right) + \left( \frac{D}{V} \times Rd \times (1 - T) \right)
+              \]
               
+              ---
+              
+              ## 📘 Significados
+              
+              - **WACC:** Costo promedio ponderado del capital.  
+              - **E:** Valor del capital propio (*Equity*).  
+              - **D:** Valor de la deuda (*Debt*).  
+              - **V:** Valor total de la empresa (`V = E + D`).  
+              - **Re(CAPM):** Costo del capital propio (*Cost of Equity*).  
+              - **Rd:** Costo de la deuda (*Cost of Debt*).  
+              - **T:** Tasa de impuesto sobre la renta (*Tax Rate*).  
+
+              **Nota:** Re vendría siendo el resultado de la sustitución de **CAPM**
               ''')
   
   
